@@ -1,0 +1,33 @@
+
+授权说明
+
+WINDOWS系统
+把zyiis.zl文件复制一份到C:\WINDOWS目录，这个目录可以自己自定。
+然后修改C:\WINDOWS(不一定是这个目录)目录下的php.ini文件在底部加一行
+zend_optimizer.license_path="C:\WINDOWS\zyiis.zl"
+重启IIS
+
+LINUX系统
+
+把zyiis.zl文件复制一份到任意目录
+修改php.ini在底部加一行
+zend_optimizer.license_path="任意目录/zyiis.zl"
+重启web服务
+
+直接放你你的网站安装 http://www.xxxx/123/ 进行恢复数据库
+
+账号admin
+密码admin
+
+进入后点击恢复数据库，，就安装完成了
+
+文件目录下的几个文件改成你的网址 和你的mysql账号密码即可 很简单的
+conn.php
+config.php
+settings.php
+page/s.php
+
+
+后台地址：http://您的域名/v7/do.php
+帐号密码 admin  admin
+
